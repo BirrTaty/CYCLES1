@@ -8,9 +8,9 @@ class SQRServiceTest {
     void calculate() {
         SQRService service = new SQRService();
 
-        int underLine = 200;
-        int upperLine = 300;
-        int expected = 3;
+        int underLine = 100;
+        int upperLine = 200;
+        int expected = 5;
 
         int actual = service.calculate(underLine, upperLine);
 
